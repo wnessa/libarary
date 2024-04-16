@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background: #ffffff;
+    color: #000000;
+}
+.hero{
+    height: 40vh;
+    background: #ffbb00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+.van{
+    font-size: 100px;
+}
+.item{
+    display: flex;
+}
+
+.container h2{
+    display: flex;
+    margin-bottom: 5px;
+}
+.carousel{
+    margin-left: 180px;
+    margin-right: 160px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+}
+.btn button{
+    width: 138px;
+    padding: 10px;
+    margin-left: 580px;
+    margin-bottom: 15px;
+    background: #242f49;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background: #ffc800;
+}
+.container p{
+    margin-left: 50px;
+}
+.menu-item{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
